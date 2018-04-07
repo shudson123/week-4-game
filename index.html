@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <link rel="stylesheet" href="assets\css\style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class = "container">
+        <div id = "header">
+            <h1>Crystal Collector</h1>
+        </div>
+        <div id = "main-container">
+            <div id = "instructions">
+                <p>
+                    You will be given a random number at the start of the game.
+                </p>
+                <p>
+                    There are four crystal below. By clicking on a crystal, you will add a specific amount of points to your total score.
+                </p>
+                <p>
+                    You win the game by matching your total score to the random number, but lose if your score goes over.
+                </p>
+                <p>
+                    The value of each crystal is hidden from you until you click on it.
+                </p>
+                <p>
+                    Each time when the game starts, the game will generate a new random number and new values for the crystals.
+                </p>
+            </div>
+            <div id = "gameBox">
+                <div id = "scoreText">
+                    <br>
+                        Your total score is!
+                    <div id = "playerScore">
+                        
+                    </div>
+                </div>
+                <div id = "random">
+                    <br>
+                    Your target score is!
+                    <div id = "randomNumber">
+
+                    </div>
+                    
+                </div>
+            </div>
+                <div id = "crystalImages">
+                    <div id = "red"><img src="assets\images\red.jpg" alt="Red Crystal" style= "height: 100px; width: 100px"></div>
+                    <div id = "blue"><img src="assets\images\blue.jpg" alt="Blue Crystal" style= "height: 100px; width: 100px"></div>
+                    <div id = "green"><img src="assets\images\green.jpg" alt="Green Crystal" style= "height: 100px; width: 100px"></div>
+                    <div id = "yellow"><img src="assets\images\yellow.jpg" alt="Yellow Crystal" style= "height: 100px; width: 100px"></div>
+                </div>
+            <div id = "scoreBox">
+                <div id = "winBox">
+                    <br>
+                    # of Wins
+                    <div id = "wins">
+                    
+                    </div>
+                </div>
+                <div id = "lossesBox">
+                    <br>
+                    # of Losses
+                    <div id = "losses">
+                        
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    
+    <script src="assets\javascript\game.js"></script>
+</body>
+</html>
